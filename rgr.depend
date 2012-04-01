@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1302626117 source:/home/ilia/Документы/rgr/rgr/main.cpp
+	<iostream>
+	<stack>
+	"lexem-high.h"
+
+1301577575 /home/ilia/Документы/rgr/rgr/subject_area.h
+	<iostream>
+	"math.h"
+
+1301578734 /home/ilia/Документы/rgr/rgr/language.h
+	<iostream>
+	"subject_area.h"
+	<stack>
+	"math.h"
+
+1301583116 /home/ilia/Документы/rgr/rgr/Lexem.h
+	"language.h"
+	<string>
+	<fstream>
+
+1302624906 /home/ilia/Документы/rgr/rgr/lexem-high.h
+	"language.h"
+	<string>
+	<fstream>
+
+1302781788 source:g:\rgr\main.cpp
+	<iostream>
+	<stack>
+	"lexem-high.h"
+
+1302784312 g:\rgr\lexem-high.h
+	"language.h"
+	<string>
+	<fstream>
+
+1301578734 g:\rgr\language.h
+	<iostream>
+	"subject_area.h"
+	<stack>
+	"math.h"
+
+1301577574 g:\rgr\subject_area.h
+	<iostream>
+	"math.h"
+
+1302781788 source:d:\work\rgr\main.cpp
+	<iostream>
+	<stack>
+	"lexem-high.h"
+
+1302784340 d:\work\rgr\lexem-high.h
+	"language.h"
+	<string>
+	<fstream>
+
+1301578734 d:\work\rgr\language.h
+	<iostream>
+	"subject_area.h"
+	<stack>
+	"math.h"
+
+1301577574 d:\work\rgr\subject_area.h
+	<iostream>
+	"math.h"
+

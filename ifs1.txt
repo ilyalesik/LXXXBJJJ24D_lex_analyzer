@@ -1,0 +1,300 @@
+if (a==33&&b==38)return 3;//add e > 6  rule 8
+if (a==46&&b==38)return 3;//add K > 6  rule 10
+if (a==49&&b==38)return 3;//add E > 6  rule 11
+if (a==52&&b==38)return 3;//add F > 6  rule 22
+if (a==53&&b==38)return 3;//add Z > 6  rule 28
+if (a==35&&b==38)return 3;//add c > 6  rule 29
+if (a==34&&b==38)return 3;//add i > 6  rule 30
+if (a==13&&b==38)return 3;//add ) > 6  rule 31
+if (a==54&&b==38)return 3;//add M > 6  rule 39
+if (a==55&&b==38)return 3;//add N > 6  rule 42
+if (a==38&&b==42)return 1;//add 6 = O  rule 17
+if (a==38&&b==6)return 2;//add 6 < ;  rule 3
+if (a==38&&b==32)return 2;//add 6 < b  rule 8
+if (a==38&&b==19)return 2;//add 6 < s  rule 10
+if (a==38&&b==25)return 2;//add 6 < j  rule 18
+if (a==38&&b==24)return 2;//add 6 < :  rule 19
+if (a==38&&b==17)return 2;//add 6 < 3  rule 20
+if (a==38&&b==18)return 2;//add 6 < 4  rule 21
+if (a==38&&b==21)return 2;//add 6 < n  rule 39
+if (a==38&&b==20)return 2;//add 6 < o  rule 42
+if (a==25&&b==34)return 1;//add j = i  rule 18
+if (a==24&&b==34)return 1;//add : = i  rule 19
+if (a==17&&b==34)return 1;//add 3 = i  rule 20
+if (a==18&&b==34)return 1;//add 4 = i  rule 21
+if (a==49&&b==1)return 1;//add E = +  rule 22
+if (a==52&&b==1)return 3;//add F > +  rule 22
+if (a==53&&b==1)return 3;//add Z > +  rule 28
+if (a==35&&b==1)return 3;//add c > +  rule 29
+if (a==34&&b==1)return 3;//add i > +  rule 30
+if (a==13&&b==1)return 3;//add ) > +  rule 31
+if (a==1&&b==52)return 1;//add + = F  rule 22
+if (a==1&&b==53)return 2;//add + < Z  rule 25
+if (a==1&&b==35)return 2;//add + < c  rule 29
+if (a==1&&b==34)return 2;//add + < i  rule 30
+if (a==1&&b==15)return 2;//add + < 1  rule 31
+if (a==1&&b==14)return 2;//add + < 0  rule 32
+if (a==1&&b==16)return 2;//add + < 2  rule 33
+if (a==1&&b==12)return 2;//add + < (  rule 34
+if (a==49&&b==2)return 1;//add E = 8  rule 23
+if (a==52&&b==2)return 3;//add F > 8  rule 22
+if (a==53&&b==2)return 3;//add Z > 8  rule 28
+if (a==35&&b==2)return 3;//add c > 8  rule 29
+if (a==34&&b==2)return 3;//add i > 8  rule 30
+if (a==13&&b==2)return 3;//add ) > 8  rule 31
+if (a==2&&b==52)return 1;//add 8 = F  rule 23
+if (a==2&&b==53)return 2;//add 8 < Z  rule 25
+if (a==2&&b==35)return 2;//add 8 < c  rule 29
+if (a==2&&b==34)return 2;//add 8 < i  rule 30
+if (a==2&&b==15)return 2;//add 8 < 1  rule 31
+if (a==2&&b==14)return 2;//add 8 < 0  rule 32
+if (a==2&&b==16)return 2;//add 8 < 2  rule 33
+if (a==2&&b==12)return 2;//add 8 < (  rule 34
+if (a==53&&b==3)return 1;//add Z = *  rule 25
+if (a==35&&b==3)return 3;//add c > *  rule 29
+if (a==34&&b==3)return 3;//add i > *  rule 30
+if (a==13&&b==3)return 3;//add ) > *  rule 31
+if (a==3&&b==52)return 1;//add * = F  rule 25
+if (a==3&&b==53)return 2;//add * < Z  rule 25
+if (a==3&&b==35)return 2;//add * < c  rule 29
+if (a==3&&b==34)return 2;//add * < i  rule 30
+if (a==3&&b==15)return 2;//add * < 1  rule 31
+if (a==3&&b==14)return 2;//add * < 0  rule 32
+if (a==3&&b==16)return 2;//add * < 2  rule 33
+if (a==3&&b==12)return 2;//add * < (  rule 34
+if (a==53&&b==4)return 1;//add Z = /  rule 26
+if (a==35&&b==4)return 3;//add c > /  rule 29
+if (a==34&&b==4)return 3;//add i > /  rule 30
+if (a==13&&b==4)return 3;//add ) > /  rule 31
+if (a==4&&b==52)return 1;//add / = F  rule 26
+if (a==4&&b==53)return 2;//add / < Z  rule 25
+if (a==4&&b==35)return 2;//add / < c  rule 29
+if (a==4&&b==34)return 2;//add / < i  rule 30
+if (a==4&&b==15)return 2;//add / < 1  rule 31
+if (a==4&&b==14)return 2;//add / < 0  rule 32
+if (a==4&&b==16)return 2;//add / < 2  rule 33
+if (a==4&&b==12)return 2;//add / < (  rule 34
+if (a==53&&b==5)return 1;//add Z = %  rule 27
+if (a==35&&b==5)return 3;//add c > %  rule 29
+if (a==34&&b==5)return 3;//add i > %  rule 30
+if (a==13&&b==5)return 3;//add ) > %  rule 31
+if (a==5&&b==52)return 1;//add % = F  rule 27
+if (a==5&&b==53)return 2;//add % < Z  rule 25
+if (a==5&&b==35)return 2;//add % < c  rule 29
+if (a==5&&b==34)return 2;//add % < i  rule 30
+if (a==5&&b==15)return 2;//add % < 1  rule 31
+if (a==5&&b==14)return 2;//add % < 0  rule 32
+if (a==5&&b==16)return 2;//add % < 2  rule 33
+if (a==5&&b==12)return 2;//add % < (  rule 34
+if (a==15&&b==12)return 1;//add 1 = (  rule 31
+if (a==12&&b==46)return 1;//add ( = K  rule 31
+if (a==12&&b==49)return 2;//add ( < E  rule 11
+if (a==12&&b==52)return 2;//add ( < F  rule 24
+if (a==12&&b==53)return 2;//add ( < Z  rule 25
+if (a==12&&b==35)return 2;//add ( < c  rule 29
+if (a==12&&b==34)return 2;//add ( < i  rule 30
+if (a==12&&b==15)return 2;//add ( < 1  rule 31
+if (a==12&&b==14)return 2;//add ( < 0  rule 32
+if (a==12&&b==16)return 2;//add ( < 2  rule 33
+if (a==12&&b==12)return 2;//add ( < (  rule 34
+if (a==46&&b==13)return 1;//add K = )  rule 31
+if (a==49&&b==13)return 3;//add E > )  rule 11
+if (a==52&&b==13)return 3;//add F > )  rule 22
+if (a==53&&b==13)return 3;//add Z > )  rule 28
+if (a==35&&b==13)return 3;//add c > )  rule 29
+if (a==34&&b==13)return 3;//add i > )  rule 30
+if (a==13&&b==13)return 3;//add ) > )  rule 31
+if (a==14&&b==46)return 1;//add 0 = K  rule 32
+if (a==14&&b==49)return 2;//add 0 < E  rule 11
+if (a==14&&b==52)return 2;//add 0 < F  rule 24
+if (a==14&&b==53)return 2;//add 0 < Z  rule 25
+if (a==14&&b==35)return 2;//add 0 < c  rule 29
+if (a==14&&b==34)return 2;//add 0 < i  rule 30
+if (a==14&&b==15)return 2;//add 0 < 1  rule 31
+if (a==14&&b==14)return 2;//add 0 < 0  rule 32
+if (a==14&&b==16)return 2;//add 0 < 2  rule 33
+if (a==14&&b==12)return 2;//add 0 < (  rule 34
+if (a==46&&b==12)return 1;//add K = (  rule 32
+if (a==49&&b==12)return 3;//add E > (  rule 11
+if (a==52&&b==12)return 3;//add F > (  rule 22
+if (a==53&&b==12)return 3;//add Z > (  rule 28
+if (a==35&&b==12)return 3;//add c > (  rule 29
+if (a==34&&b==12)return 3;//add i > (  rule 30
+if (a==13&&b==12)return 3;//add ) > (  rule 31
+if (a==16&&b==46)return 1;//add 2 = K  rule 33
+if (a==16&&b==49)return 2;//add 2 < E  rule 11
+if (a==16&&b==52)return 2;//add 2 < F  rule 24
+if (a==16&&b==53)return 2;//add 2 < Z  rule 25
+if (a==16&&b==35)return 2;//add 2 < c  rule 29
+if (a==16&&b==34)return 2;//add 2 < i  rule 30
+if (a==16&&b==15)return 2;//add 2 < 1  rule 31
+if (a==16&&b==14)return 2;//add 2 < 0  rule 32
+if (a==16&&b==16)return 2;//add 2 < 2  rule 33
+if (a==16&&b==12)return 2;//add 2 < (  rule 34
+if (a==46&&b==8)return 1;//add K = <  rule 35
+if (a==49&&b==8)return 3;//add E > <  rule 11
+if (a==52&&b==8)return 3;//add F > <  rule 22
+if (a==53&&b==8)return 3;//add Z > <  rule 28
+if (a==35&&b==8)return 3;//add c > <  rule 29
+if (a==34&&b==8)return 3;//add i > <  rule 30
+if (a==13&&b==8)return 3;//add ) > <  rule 31
+if (a==8&&b==46)return 1;//add < = K  rule 35
+if (a==8&&b==49)return 2;//add < < E  rule 11
+if (a==8&&b==52)return 2;//add < < F  rule 24
+if (a==8&&b==53)return 2;//add < < Z  rule 25
+if (a==8&&b==35)return 2;//add < < c  rule 29
+if (a==8&&b==34)return 2;//add < < i  rule 30
+if (a==8&&b==15)return 2;//add < < 1  rule 31
+if (a==8&&b==14)return 2;//add < < 0  rule 32
+if (a==8&&b==16)return 2;//add < < 2  rule 33
+if (a==8&&b==12)return 2;//add < < (  rule 34
+if (a==46&&b==9)return 1;//add K = >  rule 36
+if (a==49&&b==9)return 3;//add E > >  rule 11
+if (a==52&&b==9)return 3;//add F > >  rule 22
+if (a==53&&b==9)return 3;//add Z > >  rule 28
+if (a==35&&b==9)return 3;//add c > >  rule 29
+if (a==34&&b==9)return 3;//add i > >  rule 30
+if (a==13&&b==9)return 3;//add ) > >  rule 31
+if (a==9&&b==46)return 1;//add > = K  rule 36
+if (a==9&&b==49)return 2;//add > < E  rule 11
+if (a==9&&b==52)return 2;//add > < F  rule 24
+if (a==9&&b==53)return 2;//add > < Z  rule 25
+if (a==9&&b==35)return 2;//add > < c  rule 29
+if (a==9&&b==34)return 2;//add > < i  rule 30
+if (a==9&&b==15)return 2;//add > < 1  rule 31
+if (a==9&&b==14)return 2;//add > < 0  rule 32
+if (a==9&&b==16)return 2;//add > < 2  rule 33
+if (a==9&&b==12)return 2;//add > < (  rule 34
+if (a==46&&b==10)return 1;//add K = w  rule 37
+if (a==49&&b==10)return 3;//add E > w  rule 11
+if (a==52&&b==10)return 3;//add F > w  rule 22
+if (a==53&&b==10)return 3;//add Z > w  rule 28
+if (a==35&&b==10)return 3;//add c > w  rule 29
+if (a==34&&b==10)return 3;//add i > w  rule 30
+if (a==13&&b==10)return 3;//add ) > w  rule 31
+if (a==10&&b==46)return 1;//add w = K  rule 37
+if (a==10&&b==49)return 2;//add w < E  rule 11
+if (a==10&&b==52)return 2;//add w < F  rule 24
+if (a==10&&b==53)return 2;//add w < Z  rule 25
+if (a==10&&b==35)return 2;//add w < c  rule 29
+if (a==10&&b==34)return 2;//add w < i  rule 30
+if (a==10&&b==15)return 2;//add w < 1  rule 31
+if (a==10&&b==14)return 2;//add w < 0  rule 32
+if (a==10&&b==16)return 2;//add w < 2  rule 33
+if (a==10&&b==12)return 2;//add w < (  rule 34
+if (a==46&&b==11)return 1;//add K = u  rule 38
+if (a==49&&b==11)return 3;//add E > u  rule 11
+if (a==52&&b==11)return 3;//add F > u  rule 22
+if (a==53&&b==11)return 3;//add Z > u  rule 28
+if (a==35&&b==11)return 3;//add c > u  rule 29
+if (a==34&&b==11)return 3;//add i > u  rule 30
+if (a==13&&b==11)return 3;//add ) > u  rule 31
+if (a==11&&b==46)return 1;//add u = K  rule 38
+if (a==11&&b==49)return 2;//add u < E  rule 11
+if (a==11&&b==52)return 2;//add u < F  rule 24
+if (a==11&&b==53)return 2;//add u < Z  rule 25
+if (a==11&&b==35)return 2;//add u < c  rule 29
+if (a==11&&b==34)return 2;//add u < i  rule 30
+if (a==11&&b==15)return 2;//add u < 1  rule 31
+if (a==11&&b==14)return 2;//add u < 0  rule 32
+if (a==11&&b==16)return 2;//add u < 2  rule 33
+if (a==11&&b==12)return 2;//add u < (  rule 34
+if (a==21&&b==54)return 1;//add n = M  rule 39
+if (a==21&&b==22)return 2;//add n < m  rule 40
+if (a==22&&b==34)return 1;//add m = i  rule 40
+if (a==34&&b==54)return 1;//add i = M  rule 40
+if (a==34&&b==22)return 2;//add i < m  rule 40
+if (a==20&&b==55)return 1;//add o = N  rule 42
+if (a==20&&b==23)return 2;//add o < l  rule 43
+if (a==23&&b==46)return 1;//add l = K  rule 43
+if (a==23&&b==49)return 2;//add l < E  rule 11
+if (a==23&&b==52)return 2;//add l < F  rule 24
+if (a==23&&b==53)return 2;//add l < Z  rule 25
+if (a==23&&b==35)return 2;//add l < c  rule 29
+if (a==23&&b==34)return 2;//add l < i  rule 30
+if (a==23&&b==15)return 2;//add l < 1  rule 31
+if (a==23&&b==14)return 2;//add l < 0  rule 32
+if (a==23&&b==16)return 2;//add l < 2  rule 33
+if (a==23&&b==12)return 2;//add l < (  rule 34
+if (a==46&&b==55)return 1;//add K = N  rule 43
+if (a==46&&b==23)return 2;//add K < l  rule 43
+if (a==49&&b==55)return 3;//add E > N  rule 11
+if (a==52&&b==55)return 3;//add F > N  rule 22
+if (a==53&&b==55)return 3;//add Z > N  rule 28
+if (a==35&&b==55)return 3;//add c > N  rule 29
+if (a==34&&b==55)return 3;//add i > N  rule 30
+if (a==13&&b==55)return 3;//add ) > N  rule 31
+if (a==35&&b==23)return 3;//add c > l  rule 29
+if (a==34&&b==23)return 3;//add i > l  rule 30
+if (a==13&&b==23)return 3;//add ) > l  rule 31
+if (a==52&&b==23)return 3;//add F > l  rule 25
+if (a==53&&b==23)return 3;//add Z > l  rule 28
+if (a==49&&b==23)return 3;//add E > l  rule 11
+5=(=<c>+=i=)=<=i=7=o=l=c=6=o=l=i=+=i=;=
+c -> Z
+5=(=<Z>+=i=)=<=i=7=o=l=c=6=o=l=i=+=i=;=
+Z -> F
+5=(=<F>+=i=)=<=i=7=o=l=c=6=o=l=i=+=i=;=
+F -> E
+5=(=E=+=<i>)=<=i=7=o=l=c=6=o=l=i=+=i=;=
+i -> Z
+5=(=E=+=<Z>)=<=i=7=o=l=c=6=o=l=i=+=i=;=
+Z -> F
+5=(=<E+=F>)=<=i=7=o=l=c=6=o=l=i=+=i=;=
+E+F -> E
+5=(=<E>)=<=i=7=o=l=c=6=o=l=i=+=i=;=
+E -> K
+5=<(K=)><=i=7=o=l=c=6=o=l=i=+=i=;=
+(K) -> Z
+5=<Z><=i=7=o=l=c=6=o=l=i=+=i=;=
+Z -> F
+5=<F><=i=7=o=l=c=6=o=l=i=+=i=;=
+F -> E
+5=<E><=i=7=o=l=c=6=o=l=i=+=i=;=
+E -> K
+5=K=<=<i>7=o=l=c=6=o=l=i=+=i=;=
+i -> Z
+5=K=<=<Z>7=o=l=c=6=o=l=i=+=i=;=
+Z -> F
+5=K=<=<F>7=o=l=c=6=o=l=i=+=i=;=
+F -> E
+5=K=<=<E>7=o=l=c=6=o=l=i=+=i=;=
+E -> K
+5=<K<=K>7=o=l=c=6=o=l=i=+=i=;=
+K<K -> T
+5=T=7=o=l=<c>6=o=l=i=+=i=;=
+c -> Z
+5=T=7=o=l=<Z>6=o=l=i=+=i=;=
+Z -> F
+5=T=7=o=l=<F>6=o=l=i=+=i=;=
+F -> E
+5=T=7=o=l=<E>6=o=l=i=+=i=;=
+E -> K
+5=T=7=o=<lK>6=o=l=i=+=i=;=
+lK -> N
+5=T=7=<oN>6=o=l=i=+=i=;=
+oN -> O
+5=T=7=O=6=o=l=<i>+=i=;=
+i -> Z
+5=T=7=O=6=o=l=<Z>+=i=;=
+Z -> F
+5=T=7=O=6=o=l=<F>+=i=;=
+F -> E
+5=T=7=O=6=o=l=E=+=<i>;=
+i -> Z
+5=T=7=O=6=o=l=E=+=<Z>;=
+Z -> F
+5=T=7=O=6=o=l=<E+=F>;=
+E+F -> E
+5=T=7=O=6=o=l=<E>;=
+E -> K
+5=T=7=O=6=o=<lK>;=
+lK -> N
+5=T=7=O=6=<oN>;=
+oN -> O
+<5T=7=O=6=O>;=
+5T7O6O -> L
+<L;>
+L; -> P
+Accept
+Для продолжения нажмите любую клавишу . . .

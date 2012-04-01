@@ -1,0 +1,69 @@
+if (end-begin==3&&a_lex[begin+0]==40&&a_lex[begin+1]==41&&a_lex[begin+2]==6) ret
+urn 40;
+if (end-begin==2&&a_lex[begin+0]==41&&a_lex[begin+1]==6) return 40;
+if (end-begin==1&&a_lex[begin+0]==42) return 41;
+if (end-begin==1&&a_lex[begin+0]==6) return 42;
+if (end-begin==4&&a_lex[begin+0]==26&&a_lex[begin+1]==43&&a_lex[begin+2]==29&&a_
+lex[begin+3]==42) return 41;
+if (end-begin==6&&a_lex[begin+0]==44&&a_lex[begin+1]==45&&a_lex[begin+2]==28&&a_
+lex[begin+3]==45&&a_lex[begin+4]==29&&a_lex[begin+5]==42) return 41;
+if (end-begin==3&&a_lex[begin+0]==27&&a_lex[begin+1]==34&&a_lex[begin+2]==30) re
+turn 44;
+if (end-begin==1&&a_lex[begin+0]==46) return 45;
+if (end-begin==3&&a_lex[begin+0]==32&&a_lex[begin+1]==47&&a_lex[begin+2]==33) re
+turn 42;
+if (end-begin==1&&a_lex[begin+0]==40) return 47;
+if (end-begin==3&&a_lex[begin+0]==19&&a_lex[begin+1]==48&&a_lex[begin+2]==46) re
+turn 42;
+if (end-begin==1&&a_lex[begin+0]==49) return 46;
+if (end-begin==1&&a_lex[begin+0]==50) return 48;
+if (end-begin==2&&a_lex[begin+0]==34&&a_lex[begin+1]==30) return 51;
+if (end-begin==3&&a_lex[begin+0]==34&&a_lex[begin+1]==7&&a_lex[begin+2]==50) ret
+urn 50;
+if (end-begin==1&&a_lex[begin+0]==51) return 50;
+if (end-begin==4&&a_lex[begin+0]==37&&a_lex[begin+1]==43&&a_lex[begin+2]==39&&a_
+lex[begin+3]==42) return 41;
+if (end-begin==6&&a_lex[begin+0]==37&&a_lex[begin+1]==43&&a_lex[begin+2]==39&&a_
+lex[begin+3]==42&&a_lex[begin+4]==38&&a_lex[begin+5]==42) return 41;
+if (end-begin==2&&a_lex[begin+0]==25&&a_lex[begin+1]==34) return 42;
+if (end-begin==2&&a_lex[begin+0]==24&&a_lex[begin+1]==34) return 42;
+if (end-begin==2&&a_lex[begin+0]==17&&a_lex[begin+1]==34) return 42;
+if (end-begin==2&&a_lex[begin+0]==18&&a_lex[begin+1]==34) return 42;
+if (end-begin==3&&a_lex[begin+0]==49&&a_lex[begin+1]==1&&a_lex[begin+2]==52) ret
+urn 49;
+if (end-begin==3&&a_lex[begin+0]==49&&a_lex[begin+1]==2&&a_lex[begin+2]==52) ret
+urn 49;
+if (end-begin==1&&a_lex[begin+0]==52) return 49;
+if (end-begin==3&&a_lex[begin+0]==53&&a_lex[begin+1]==3&&a_lex[begin+2]==52) ret
+urn 52;
+if (end-begin==3&&a_lex[begin+0]==53&&a_lex[begin+1]==4&&a_lex[begin+2]==52) ret
+urn 52;
+if (end-begin==3&&a_lex[begin+0]==53&&a_lex[begin+1]==5&&a_lex[begin+2]==52) ret
+urn 52;
+if (end-begin==1&&a_lex[begin+0]==53) return 52;
+if (end-begin==1&&a_lex[begin+0]==35) return 53;
+if (end-begin==1&&a_lex[begin+0]==34) return 53;
+if (end-begin==4&&a_lex[begin+0]==15&&a_lex[begin+1]==12&&a_lex[begin+2]==46&&a_
+lex[begin+3]==13) return 53;
+if (end-begin==5&&a_lex[begin+0]==14&&a_lex[begin+1]==46&&a_lex[begin+2]==12&&a_
+lex[begin+3]==46&&a_lex[begin+4]==13) return 53;
+if (end-begin==5&&a_lex[begin+0]==16&&a_lex[begin+1]==46&&a_lex[begin+2]==12&&a_
+lex[begin+3]==46&&a_lex[begin+4]==13) return 53;
+if (end-begin==3&&a_lex[begin+0]==12&&a_lex[begin+1]==46&&a_lex[begin+2]==13) re
+turn 53;
+if (end-begin==3&&a_lex[begin+0]==46&&a_lex[begin+1]==8&&a_lex[begin+2]==46) ret
+urn 43;
+if (end-begin==3&&a_lex[begin+0]==46&&a_lex[begin+1]==9&&a_lex[begin+2]==46) ret
+urn 43;
+if (end-begin==3&&a_lex[begin+0]==46&&a_lex[begin+1]==10&&a_lex[begin+2]==46) re
+turn 43;
+if (end-begin==3&&a_lex[begin+0]==46&&a_lex[begin+1]==11&&a_lex[begin+2]==46) re
+turn 43;
+if (end-begin==2&&a_lex[begin+0]==21&&a_lex[begin+1]==54) return 42;
+if (end-begin==3&&a_lex[begin+0]==22&&a_lex[begin+1]==34&&a_lex[begin+2]==54) re
+turn 54;
+if (end-begin==2&&a_lex[begin+0]==22&&a_lex[begin+1]==34) return 54;
+if (end-begin==2&&a_lex[begin+0]==20&&a_lex[begin+1]==55) return 42;
+if (end-begin==3&&a_lex[begin+0]==23&&a_lex[begin+1]==46&&a_lex[begin+2]==55) re
+turn 55;
+if (end-begin==2&&a_lex[begin+0]==23&&a_lex[begin+1]==46) return 55;

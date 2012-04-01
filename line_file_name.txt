@@ -1,0 +1,1 @@
+D:\Work\LXXXBJJJ24Dgrammar\pred_in1.txt D:\Work\LXXXBJJJ24Dgrammar\prd_table.txt D:\Work\LXXXBJJJ24Dgrammar\word_pred.txt
